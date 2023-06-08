@@ -3,9 +3,12 @@ package com.example.java_web_final_project.Model;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
+import jdk.jfr.DataAmount;
 
 import java.util.Objects;
 @Entity
+
+
 public class Song {
     @Id
     @GeneratedValue
